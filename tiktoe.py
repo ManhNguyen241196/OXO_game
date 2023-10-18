@@ -89,7 +89,6 @@ def game_func(game_list, game_on):
             
             def player_turn(name, player):
                 global game_over
-                print(game_list)
                 print(f'''{name}. Chọn {player}         1 | 2 | 3      
                         4 | 5 | 6       
                         7 | 8 | 9 ''')
